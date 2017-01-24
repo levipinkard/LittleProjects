@@ -8,7 +8,7 @@ int main()
 {
     srand((int)time(0));
     int randomCoin =  int(rand() % 10) + 1;
-    if (randomCoin >= 5) {
+    if (randomCoin > 5) {
         cout << "Heads!" << endl;
     } else {
         cout << "Tails!" << endl;
